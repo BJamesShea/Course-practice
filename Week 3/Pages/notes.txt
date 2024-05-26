@@ -1,0 +1,8 @@
+CSS Units: 
+
+default font size of most web pages is 16px = 12pt = 100% = 1em
+vh: Viewport Height
+vw: Viewport Width
+
+em: adapt from immediate parent
+rem: adapt from root element

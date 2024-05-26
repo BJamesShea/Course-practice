@@ -1,0 +1,39 @@
+Week2: 
+
+Try to imitate Wikipedia!
+
+Web browsers are actually called "User agents"
+
+Attributes: Give extra functionality to the tags:
+<a href="https://www.google.com" id="gg1">Google</a>
+src in img is an attribute
+
+ALMOST ALWAYS NAME FIRST HTML PAGE AS INDEX.HTML FOR METADATA PURPOSES
+
+
+CSS: Cascading Style Sheet
+    How to make webpage look presentable
+
+CSS Syntax: 
+    Rules: 
+        i) Selector - The element on which we want to apply style
+        ii) Declrataion - The rule/style in a key value pair that has to be applied
+    Where do we put CSS?
+        i) Inline CSS - NOT recomemended - When we define style within the element  i.e  <h1 style-"color:red"> Inline overrwrites ALL previous styles
+        ii) Internal CSS - When define style in the <head> section of the document. i.e water.css, h1 { color: green} in head
+        iii) External CSS - Define a separate file with a ".css" extenstion and link it to any page
+        iv) Browser itself - It's own style sheet
+
+    ** Style can be used as attribute and element **
+    ** Styles applied from top to bottom **
+
+    Selectors: 
+        i) Tag/type Selectors: Using tag name to style 
+        ii) Class Selectors: Define a class of style and uses . (dot)    .demo {
+                                                                                   font size: 20px; 
+                                                                               }
+        iii) ID Selectors: UNQIUE for one element on one page. Uses " # "     #{ 
+                                                                                   color: red;
+                                                                               }                                                                   
+        iv) Contextual Selectors: div h1{ } Only what is inside div element will get style
+        v) Grouping Selector: We can group multiple selectors together. i.e h1, h2, .demo

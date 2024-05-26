@@ -1,0 +1,39 @@
+.demo {
+  font-size: 20px;
+  color: green;
+  background-color: yellow;
+}
+
+#a1 {
+  /* drop cap */
+  font-size: 100px;
+  line-height: 50px;
+  float: left;
+}
+
+div h1 {
+  color: red;
+}
+
+div p {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+h1 {
+  color: silver;
+}
+
+h1,
+h2,
+h3 {
+  color: pink;
+}
+
+.demo,
+p {
+  color: orange;
+}
