@@ -1,6 +1,7 @@
 html,
 body {
   font-size: 16px;
+  margin: 0;
 }
 
 p {
@@ -10,4 +11,51 @@ p {
 
 #p1 {
   font-size: 2rem;
+}
+
+h1 {
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 0;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+#picture1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+section {
+  border: 1px solid black;
+  padding: 5px;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; /* 1 dimensional - multi dimensional - CSS Grid */
+}
+
+#s1 {
+  flex: 1;
+}
+
+#s2 {
+  flex: 1;
+}
+
+#s3 {
+  flex: 1;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1800px) {
+  body {
+    background-color: rgb(29, 37, 39);
+    color: white;
+  }
+  main {
+    justify-content: center;
+  }
 }

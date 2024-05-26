@@ -6,3 +6,12 @@ vw: Viewport Width
 
 em: adapt from immediate parent
 rem: adapt from root element
+
+Why 100% vw for some elements?
+    1, Inline(only occupies the required width) vs 2. Block (by default occupy 100% of the width)
+
+
+
+CSS box model:
+
+Flex box model:
